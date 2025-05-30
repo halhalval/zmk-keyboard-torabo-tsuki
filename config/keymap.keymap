@@ -20,31 +20,31 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                                                         &kp N6       &kp N7    &kp N8     &kp N9    &kp N0                &kp BSPC
-&kp TAB    &kp Q      &kp W     &kp E     &kp R     &kp T                                                          &kp Y        &kp U     &kp I      &kp O     &kp P                 &kp BSPC
-&kp CAPS   &kp A      &kp S     &kp D     &kp F     &kp G                                                          &kp H        &kp J     &kp K      &kp L     &kp SEMI              &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V     &kp B        &kp SPACE                  &kp RET                &kp N        &kp M     &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp RSHFT
-&kp LCTRL  &kp LCTRL  &kp LGUI  &kp LALT  &kp BSPC  &lt 3 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &kp BSPC  &kp RALT   &kp RGUI  &lt 1 BACKSPACE       &kp RCTRL
+&trans  &trans     &trans    &trans    &trans     &trans                                                         &trans       &trans  &trans     &trans   &trans           &trans
+&trans  &kp Q      &kp W     &kp E     &kp R      &kp T                                                          &kp Y        &kp U   &kp I      &kp O    &kp P            &trans
+&trans  &kp A      &kp S     &kp D     &kp F      &kp G                                                          &kp H        &kp J   &kp K      &kp L    &kp SEMI         &trans
+&trans  &kp Z      &kp X     &kp C     &kp V      &kp B        &trans                     &trans                 &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH        &trans
+&trans  &kp LCTRL  &kp LGUI  &kp LALT  &lt 4 TAB  &lt 3 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &trans  &trans     &trans   &lt 1 BACKSPACE  &trans
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans     &trans         &trans      &trans      &trans                                            &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &kp EXCL   &kp AT_SIGN    &kp HASH    &kp DOLLAR  &kp PERCENT                                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&trans  &kp CARET  &kp AMPERSAND  &kp ASTRK   &kp LPAR    &kp RIGHT_PARENTHESIS                             &bt BT_NXT    &mkp LCLK     &mkp RCLK     &trans        &trans        &trans
-&trans  &kp MINUS  &kp EQUAL      &kp PLUS    &kp LBKT    &kp RBKT               &trans             &trans  &bt BT_PRV    &trans        &trans        &trans        &trans        &trans
-&trans  &kp BSLH   &kp PIPE       &kp TILDE2  &kp APOS    &kp GRAVE              &kp DOUBLE_QUOTES  &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans               &trans                  &trans          &trans                                 &trans            &trans         &trans         &trans         &trans         &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2            &bt BT_SEL 3    &bt BT_SEL 4                           &bt BT_DISC 0     &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans
+&trans  &bt BT_NXT    &bt BT_PRV           &trans                  &out OUT_USB    &out OUT_BLE                           &kp K_PLAY_PAUSE  &kp K_STOP2    &kp K_NEXT     &kp K_PREV     &kp K_VOL_UP2  &trans
+&trans  &kp K_WWW     &kp C_AL_CALCULATOR  &kp C_AL_CONTROL_PANEL  &kp C_AC_CLOSE  &kp C_AC_OPEN  &trans          &trans  &bootloader       &trans         &trans         &kp K_MUTE2    &kp K_VOL_DN2  &trans
+&trans  &bootloader   &trans               &trans                  &kp C_AC_COPY   &kp C_AC_CUT   &kp C_AC_PASTE  &trans  &trans            &trans         &trans         &trans         &trans         &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)      &kp LS(N7)     &kp LS(N8)        &kp LS(N9)         &kp LS(N0)     &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5                      &kp LEFT_BRACE  &mkp MB1       &kp EQUAL         &mkp MB2           &kp COLON      &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp LS(MINUS)   &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &kp BACKSPACE  &trans
+&trans  &trans     &trans          &trans      &trans       &trans                          &trans     &trans           &trans            &trans             &trans         &trans
+&trans  &kp EXCL   &kp AT          &kp HASH    &kp AMPS     &kp PRCNT                       &kp CARET  &kp AMPS         &kp ASTRK         &kp LPAR           &kp RPAR       &trans
+&trans  &kp N1     &kp N2          &kp N3      &kp N4       &kp N5                          &kp MINUS  &kp PLUS         &kp EQUAL         &kp SEMI           &kp COLON      &trans
+&trans  &kp N6     &kp N7          &kp N8      &kp N9       &kp N0     &trans      &trans   &kp TILDE  &kp KP_ASTERISK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&trans  &kp RCTRL  &kp APOSTROPHE  &kp DOLLAR  &kp INT_YEN  &kp QMARK  &kp ESCAPE  &kp TAB  &trans     &trans           &trans            &trans             &kp BACKSPACE  &trans
             >;
         };
 
@@ -54,7 +54,7 @@
 &trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME    &kp PG_UP       &kp PAGE_DOWN   &kp END          &kp ESCAPE      &trans
 &trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10                     &kp DELETE  &mkp MB1        &kp UP_ARROW    &mkp MB2         &msc SCRL_UP    &trans
 &trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &msc SCRL_DOWN  &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans      &trans          &trans          &trans           &trans          &trans
+&trans  &trans   &trans   &trans        &trans        &trans      &trans  &trans  &trans      &trans          &trans          &trans           &trans          &trans
             >;
         };
 
