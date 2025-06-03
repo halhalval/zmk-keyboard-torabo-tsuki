@@ -20,11 +20,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans     &trans    &trans    &trans         &trans                                                         &trans       &trans  &trans     &trans   &trans           &trans
-&trans  &kp Q      &kp W     &kp E     &kp R          &kp T                                                          &kp Y        &kp U   &kp I      &kp O    &kp P            &trans
-&trans  &kp A      &kp S     &kp D     &kp F          &kp G                                                          &kp H        &kp J   &kp K      &kp L    &kp SEMI         &trans
-&trans  &kp Z      &kp X     &kp C     &kp V          &kp B        &trans                     &trans                 &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH        &trans
-&trans  &lt 3 DEL  &kp LGUI  &kp LALT  &mt RCTRL TAB  &lt 4 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &trans  &trans     &trans   &lt 1 BACKSPACE  &trans
+&trans  &trans           &trans    &trans    &trans     &trans                                                         &trans       &trans  &trans     &trans   &trans           &trans
+&trans  &kp Q            &kp W     &kp E     &kp R      &kp T                                                          &kp Y        &kp U   &kp I      &kp O    &kp P            &trans
+&trans  &kp A            &kp S     &kp D     &kp F      &kp G                                                          &kp H        &kp J   &kp K      &kp L    &kp SEMI         &trans
+&trans  &kp Z            &kp X     &kp C     &kp V      &kp B        &trans                     &trans                 &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH        &trans
+&trans  &mt RCTRL LCTRL  &kp LGUI  &kp LALT  &lt 4 TAB  &lt 3 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &trans  &trans     &trans   &lt 1 BACKSPACE  &trans
             >;
         };
 
@@ -33,8 +33,8 @@
 &trans  &trans        &trans               &trans                  &trans          &trans                                 &trans            &trans         &trans         &trans         &trans         &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2            &bt BT_SEL 3    &bt BT_SEL 4                           &bt BT_DISC 0     &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans
 &trans  &bt BT_NXT    &bt BT_PRV           &trans                  &out OUT_USB    &out OUT_BLE                           &kp K_PLAY_PAUSE  &kp K_STOP2    &kp K_NEXT     &kp K_PREV     &kp K_VOL_UP2  &trans
-&trans  &kp K_WWW     &kp C_AL_CALCULATOR  &kp C_AL_CONTROL_PANEL  &kp C_AC_CLOSE  &kp C_AC_OPEN  &trans          &trans  &bootloader       &trans         &trans         &kp K_MUTE2    &kp K_VOL_DN2  &trans
-&trans  &bootloader   &trans               &trans                  &kp C_AC_COPY   &kp C_AC_CUT   &kp C_AC_PASTE  &trans  &trans            &trans         &trans         &trans         &trans         &trans
+&trans  &kp K_WWW     &kp C_AL_CALCULATOR  &kp C_AL_CONTROL_PANEL  &kp C_AC_CLOSE  &kp C_AC_OPEN  &trans          &trans  &bootloader       &trans         &bt BT_CLR     &kp K_MUTE2    &kp K_VOL_DN2  &trans
+&trans  &bootloader   &bt BT_CLR           &trans                  &kp C_AC_COPY   &kp C_AC_CUT   &kp C_AC_PASTE  &trans  &trans            &trans         &trans         &trans         &trans         &trans
             >;
         };
 
