@@ -24,7 +24,7 @@
 &trans  &kp Q            &kp W     &kp E     &kp R      &kp T                                                 &kp Y        &kp U   &kp I      &kp O    &kp P            &trans
 &trans  &kp A            &kp S     &kp D     &kp F      &kp G                                                 &kp H        &kp J   &kp K      &kp L    &kp SEMI         &trans
 &trans  &kp Z            &kp X     &kp C     &kp V      &kp B        &trans            &trans                 &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH        &trans
-&trans  &mt RCTRL LCTRL  &kp LGUI  &kp LALT  &lt 4 TAB  &lt 3 SPACE  &lt 4 LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &trans  &trans     &trans   &lt 1 BACKSPACE  &trans
+&trans  &mt RCTRL LCTRL  &kp LGUI  &kp LALT  &lt 3 TAB  &lt 3 SPACE  &lt 4 LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &trans  &trans     &trans   &lt 1 BACKSPACE  &trans
             >;
         };
 
